@@ -1,0 +1,13 @@
+[package]
+name = "door"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+base64 = "0.22.1"
+actix-web = "4.6.0"
+serde = { version = "1.0.203", features = ["derive"] }
+rand = "0.8.5"
+chrono = { version = "0.4.38", features = ["serde"] }
+rusqlite = "0.31.0"
+
