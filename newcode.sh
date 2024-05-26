@@ -1,0 +1,1 @@
+curl -X POST http://127.0.0.1:8080/add_code -H "Content-Type: application/json" -d '{"duration_seconds": 3600}'

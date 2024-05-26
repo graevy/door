@@ -1,0 +1,1 @@
+curl -X POST http://127.0.0.1:8080/verify_code -H "Content-Type: application/json"
